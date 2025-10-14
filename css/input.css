@@ -1,6 +1,31 @@
+/* Tailwind Flowbite v3
 @tailwind utilities;
 
 @import "tailwindcss";
 @import 'flowbite';
 
 @custom-variant dark (&:where(.dark, .dark *));
+
+/* Con esto en tailwind.config.js
+module.exports = {
+	darkMode: "class",
+	content: ["./index.html", ".//xx/x.{html,js}", "./node_modules/flowbite/xx/x.js"],
+	theme: {
+		extend: {},
+	},
+	plugins: [require("flowbite/plugin")],
+};
+/*--------------------------------------------------------*/
+/* Tailwind Flowbite v4 */
+
+@tailwind utilities;
+@import "tailwindcss" source(none);
+@source "../index.html";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+	--darkMode: class;
+}
+@plugin "flowbite/plugin";
+
