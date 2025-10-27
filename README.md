@@ -3,7 +3,7 @@ Página experimental realizada con HTML, JS y Tailwind CSS con Flowbite de negoc
 Este proyecto ha sido desplegado en Netlify con la siguiente dirección. https://variado-css-flowbite-course.netlify.app/
 
 <hr>
-<img src="preview/miniaturas.jpg">
+<img src="https://i.imgur.com/nRcaCml.jpg">
 <hr>
 
 # Requerimientos
